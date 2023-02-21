@@ -1,0 +1,16 @@
+@import url("./normalize.css");
+
+body{
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+  color: #333;
+  /* 不让body 变得过小导致内容溢出*/
+  min-width: 1226px;
+  background-image: url();
+}
+/*公共的样式*/
+.clearfie::before,
+.clearfie::after{
+    content:'';
+    display:table;
+    clear:both;
+}/*解决高度塌陷*/
